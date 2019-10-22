@@ -1,0 +1,16 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/JenkinsBackup
+[JenkinsBackup] $ /bin/sh -xe /tmp/jenkins181917058605995796.sh
++ echo 'This job will take jenkins backup'
+This job will take jenkins backup
++ rm -rf /tmp/gitrepo
++ mkdir /tmp/gitrepo
++ GITDIR=/tmp/gitrepo
++ cd /tmp/gitrepo
++ rm -rf '*'
++ echo 'Cloning the repository'
+Cloning the repository
++ git --version
+git version 2.18.1
+Finished: SUCCESS
