@@ -1,0 +1,69 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/JenkinsRestore
+[JenkinsRestore] $ /bin/sh -xe /tmp/jenkins8064657188962554384.sh
++ rm -rf /tmp/gitrepo
++ mkdir /tmp/gitrepo
++ GITDIR=/tmp/gitrepo
++ RestoreDIR=backup.10_46_10_22_2019
++ cd /tmp/gitrepo
++ rm -rf '*'
++ echo 'Cloning the repository'
+Cloning the repository
++ git clone git@github.com:yogeshbha/hello-world.git
+Cloning into 'hello-world'...
+Checking out files:  29% (1538/5301)   Checking out files:  30% (1591/5301)   Checking out files:  31% (1644/5301)   Checking out files:  32% (1697/5301)   Checking out files:  33% (1750/5301)   Checking out files:  34% (1803/5301)   Checking out files:  34% (1845/5301)   Checking out files:  35% (1856/5301)   Checking out files:  36% (1909/5301)   Checking out files:  37% (1962/5301)   Checking out files:  38% (2015/5301)   Checking out files:  39% (2068/5301)   Checking out files:  40% (2121/5301)   Checking out files:  41% (2174/5301)   Checking out files:  42% (2227/5301)   Checking out files:  43% (2280/5301)   Checking out files:  44% (2333/5301)   Checking out files:  45% (2386/5301)   Checking out files:  46% (2439/5301)   Checking out files:  47% (2492/5301)   Checking out files:  48% (2545/5301)   Checking out files:  49% (2598/5301)   Checking out files:  50% (2651/5301)   Checking out files:  51% (2704/5301)   Checking out files:  52% (2757/5301)   Checking out files:  53% (2810/5301)   Checking out files:  54% (2863/5301)   Checking out files:  54% (2881/5301)   Checking out files:  55% (2916/5301)   Checking out files:  56% (2969/5301)   Checking out files:  57% (3022/5301)   Checking out files:  58% (3075/5301)   Checking out files:  59% (3128/5301)   Checking out files:  60% (3181/5301)   Checking out files:  61% (3234/5301)   Checking out files:  62% (3287/5301)   Checking out files:  63% (3340/5301)   Checking out files:  64% (3393/5301)   Checking out files:  65% (3446/5301)   Checking out files:  65% (3455/5301)   Checking out files:  66% (3499/5301)   Checking out files:  67% (3552/5301)   Checking out files:  68% (3605/5301)   Checking out files:  69% (3658/5301)   Checking out files:  70% (3711/5301)   Checking out files:  71% (3764/5301)   Checking out files:  72% (3817/5301)   Checking out files:  72% (3823/5301)   Checking out files:  73% (3870/5301)   Checking out files:  74% (3923/5301)   Checking out files:  75% (3976/5301)   Checking out files:  76% (4029/5301)   Checking out files:  77% (4082/5301)   Checking out files:  78% (4135/5301)   Checking out files:  79% (4188/5301)   Checking out files:  80% (4241/5301)   Checking out files:  81% (4294/5301)   Checking out files:  82% (4347/5301)   Checking out files:  83% (4400/5301)   Checking out files:  84% (4453/5301)   Checking out files:  85% (4506/5301)   Checking out files:  86% (4559/5301)   Checking out files:  87% (4612/5301)   Checking out files:  88% (4665/5301)   Checking out files:  89% (4718/5301)   Checking out files:  90% (4771/5301)   Checking out files:  90% (4803/5301)   Checking out files:  91% (4824/5301)   Checking out files:  92% (4877/5301)   Checking out files:  93% (4930/5301)   Checking out files:  94% (4983/5301)   Checking out files:  95% (5036/5301)   Checking out files:  96% (5089/5301)   Checking out files:  97% (5142/5301)   Checking out files:  98% (5195/5301)   Checking out files:  99% (5248/5301)   Checking out files: 100% (5301/5301)   Checking out files: 100% (5301/5301), done.
++ cd hello-world
++ echo 'Stopping the Jenkins before restoring'
+Stopping the Jenkins before restoring
++ cd /var/lib/jenkins
+++ ls -t /tmp/gitrepo/hello-world
+++ head -1
++ BACKUPDIR=backup.10_46_10_22_2019
++ echo 'Restoring the backup from backup.10_46_10_22_2019'
+Restoring the backup from backup.10_46_10_22_2019
++ cd /tmp/gitrepo/hello-world/backup.10_46_10_22_2019
++ cp -r backup config.xml hello-world hudson.model.UpdateCenter.xml hudson.plugins.git.GitTool.xml identity.key.enc installedPlugins.xml jenkins.install.InstallUtil.lastExecVersion jenkins.install.UpgradeWizard.state jenkins.model.JenkinsLocationConfiguration.xml jenkins.telemetry.Correlator.xml jobs logs nodeMonitors.xml plugins queue.xml queue.xml.bak secret.key secret.key.not-so-secret secrets thinBackup.xml updates userContent users /var/lib/jenkins/.
++ echo 'Following are restored contents onf Jenkins'
+Following are restored contents onf Jenkins
++ sleep 2
++ ls -lart /var/lib/jenkins/.
+total 92
+drwxr-xr-x. 31 root    root    4096 Oct 21 00:47 ..
+drwxr-xr-x.  3 jenkins jenkins   17 Oct 21 00:48 .cache
+drwxr-xr-x.  3 jenkins jenkins   19 Oct 21 00:48 .java
+drwxr-xr-x.  3 jenkins jenkins   20 Oct 21 00:51 .groovy
+-rw-r--r--.  1 jenkins jenkins   77 Oct 22 10:21 .owner
+drwx------.  2 jenkins jenkins   71 Oct 22 10:44 .ssh
+-rw-------.  1 jenkins jenkins  186 Oct 22 10:57 .bash_history
+-rw-r--r--.  1 jenkins jenkins    0 Oct 22 11:19 .lastStarted
+drwxr-xr-x.  3 jenkins jenkins   28 Oct 22 11:56 workspace
+-rw-r--r--.  1 jenkins jenkins    0 Oct 22 11:58 ThinBackup Worker Thread.log
+drwxr-xr-x.  4 jenkins jenkins  103 Oct 22 11:59 backup
+drwxr-xr-x.  2 jenkins jenkins    6 Oct 22 11:59 hello-world
+-rw-r--r--.  1 jenkins jenkins 1436 Oct 22 11:59 config.xml
+-rw-r--r--.  1 jenkins jenkins 1712 Oct 22 11:59 identity.key.enc
+-rw-r--r--.  1 jenkins jenkins  370 Oct 22 11:59 hudson.plugins.git.GitTool.xml
+-rw-r--r--.  1 jenkins jenkins  156 Oct 22 11:59 hudson.model.UpdateCenter.xml
+-rw-r--r--.  1 jenkins jenkins    5 Oct 22 11:59 jenkins.install.UpgradeWizard.state
+-rw-r--r--.  1 jenkins jenkins    5 Oct 22 11:59 jenkins.install.InstallUtil.lastExecVersion
+-rw-r--r--.  1 jenkins jenkins 7171 Oct 22 11:59 installedPlugins.xml
+-rw-r--r--.  1 jenkins jenkins  171 Oct 22 11:59 jenkins.telemetry.Correlator.xml
+-rw-r--r--.  1 jenkins jenkins  182 Oct 22 11:59 jenkins.model.JenkinsLocationConfiguration.xml
+drwxr-xr-x.  7 jenkins jenkins   98 Oct 22 11:59 jobs
+drwxr-xr-x.  3 jenkins jenkins   19 Oct 22 11:59 logs
+-rw-r--r--.  1 jenkins jenkins  907 Oct 22 11:59 nodeMonitors.xml
+drwxr-xr-x. 77 jenkins jenkins 8192 Oct 22 11:59 plugins
+-rw-r--r--.  1 jenkins jenkins  130 Oct 22 11:59 queue.xml
+-rw-r--r--.  1 jenkins jenkins    0 Oct 22 11:59 secret.key.not-so-secret
+-rw-r--r--.  1 jenkins jenkins   64 Oct 22 11:59 secret.key
+-rw-r--r--.  1 jenkins jenkins  129 Oct 22 11:59 queue.xml.bak
+drwxr-xr-x.  4 jenkins jenkins 4096 Oct 22 11:59 secrets
+-rw-r--r--.  1 jenkins jenkins 1024 Oct 22 11:59 thinBackup.xml
+drwxr-xr-x.  2 jenkins jenkins  182 Oct 22 11:59 updates
+drwxr-xr-x.  2 jenkins jenkins   24 Oct 22 11:59 userContent
+drwxr-xr-x.  3 jenkins jenkins   56 Oct 22 11:59 users
+drwxr-xr-x. 16 jenkins jenkins 4096 Oct 22 11:59 .
++ echo 'Restoration completed, please check the health'
+Restoration completed, please check the health
+Finished: SUCCESS

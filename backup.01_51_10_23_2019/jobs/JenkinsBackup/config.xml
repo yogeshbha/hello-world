@@ -1,0 +1,49 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &quot;This job will take jenkins backup&quot;
+rm -rf /tmp/gitrepo
+mkdir /tmp/gitrepo
+GITDIR=&quot;/tmp/gitrepo&quot;
+
+
+cd $GITDIR
+rm -rf *
+echo &quot;Cloning the repository&quot;
+git --version
+
+git clone git@github.com:yogeshbha/hello-world.git
+
+cd hello-world
+
+now=`date +&quot;%H_%M_%m_%d_%Y&quot;`
+mkdir backup.$now
+cd backup.$now
+cp -r /var/lib/jenkins/* .
+
+sleep 5
+rm *.log
+
+cd ..
+git add -A
+
+git commit -m &quot;Pushing the backup uo file to Repository $date&quot;
+git push
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

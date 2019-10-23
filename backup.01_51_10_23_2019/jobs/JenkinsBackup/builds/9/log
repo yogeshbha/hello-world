@@ -1,0 +1,24 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/JenkinsBackup
+[JenkinsBackup] $ /bin/sh -xe /tmp/jenkins5285765189987701119.sh
++ echo 'This job will take jenkins backup'
+This job will take jenkins backup
++ rm -rf /tmp/gitrepo
++ mkdir /tmp/gitrepo
++ GITDIR=/tmp/gitrepo
++ cd /tmp/gitrepo
++ rm -rf '*'
++ echo 'Cloning the repository'
+Cloning the repository
++ git --version
+git version 2.18.1
++ git clone git@github.com:yogeshbha/hello-world.git
+Cloning into 'hello-world'...
+Checking out files:  46% (1640/3494)   Checking out files:  47% (1643/3494)   Checking out files:  48% (1678/3494)   Checking out files:  49% (1713/3494)   Checking out files:  50% (1747/3494)   Checking out files:  51% (1782/3494)   Checking out files:  52% (1817/3494)   Checking out files:  53% (1852/3494)   Checking out files:  54% (1887/3494)   Checking out files:  55% (1922/3494)   Checking out files:  56% (1957/3494)   Checking out files:  57% (1992/3494)   Checking out files:  58% (2027/3494)   Checking out files:  59% (2062/3494)   Checking out files:  60% (2097/3494)   Checking out files:  61% (2132/3494)   Checking out files:  62% (2167/3494)   Checking out files:  63% (2202/3494)   Checking out files:  64% (2237/3494)   Checking out files:  64% (2268/3494)   Checking out files:  65% (2272/3494)   Checking out files:  66% (2307/3494)   Checking out files:  67% (2341/3494)   Checking out files:  68% (2376/3494)   Checking out files:  69% (2411/3494)   Checking out files:  70% (2446/3494)   Checking out files:  71% (2481/3494)   Checking out files:  72% (2516/3494)   Checking out files:  73% (2551/3494)   Checking out files:  74% (2586/3494)   Checking out files:  75% (2621/3494)   Checking out files:  76% (2656/3494)   Checking out files:  77% (2691/3494)   Checking out files:  78% (2726/3494)   Checking out files:  79% (2761/3494)   Checking out files:  80% (2796/3494)   Checking out files:  81% (2831/3494)   Checking out files:  82% (2866/3494)   Checking out files:  83% (2901/3494)   Checking out files:  84% (2935/3494)   Checking out files:  85% (2970/3494)   Checking out files:  86% (3005/3494)   Checking out files:  87% (3040/3494)   Checking out files:  88% (3075/3494)   Checking out files:  88% (3093/3494)   Checking out files:  89% (3110/3494)   Checking out files:  90% (3145/3494)   Checking out files:  91% (3180/3494)   Checking out files:  92% (3215/3494)   Checking out files:  93% (3250/3494)   Checking out files:  94% (3285/3494)   Checking out files:  95% (3320/3494)   Checking out files:  96% (3355/3494)   Checking out files:  97% (3390/3494)   Checking out files:  98% (3425/3494)   Checking out files:  99% (3460/3494)   Checking out files: 100% (3494/3494)   Checking out files: 100% (3494/3494), done.
++ cd hello-world
+++ date +%H_%M_%m_%d_%Y
++ now=10_46_10_22_2019
++ mkdir backup.10_46_10_22_2019
++ cd backup.10_46_10_22_2019
++ cp -r /var/lib/jenkins/backup /var/lib/jenkins/config.xml /var/lib/jenkins/hello-world /var/lib/jenkins/hudson.model.UpdateCenter.xml /var/lib/jenkins/hudson.plugins.git.GitTool.xml /var/lib/jenkins/identity.key.enc /var/lib/jenkins/installedPlugins.xml /var/lib/jenkins/jenkins.install.InstallUtil.lastExecVersion /var/lib/jenkins/jenkins.install.UpgradeWizard.state /var/lib/jenkins/jenkins.model.JenkinsLocationConfiguration.xml /var/lib/jenkins/jenkins.telemetry.Correlator.xml /var/lib/jenkins/jobs /var/lib/jenkins/logs /var/lib/jenkins/nodeMonitors.xml /var/lib/jenkins/nodes /var/lib/jenkins/plugins /var/lib/jenkins/queue.xml /var/lib/jenkins/queue.xml.bak /var/lib/jenkins/secret.key /var/lib/jenkins/secret.key.not-so-secret /var/lib/jenkins/secrets '/var/lib/jenkins/ThinBackup Worker Thread.log' /var/lib/jenkins/thinBackup.xml /var/lib/jenkins/updates /var/lib/jenkins/userContent /var/lib/jenkins/users /var/lib/jenkins/workflow-libs /var/lib/jenkins/workspace .
