@@ -1,0 +1,11 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/JenkinsBackup
+[JenkinsBackup] $ /bin/sh -xe /tmp/jenkins258421524019288868.sh
++ echo 'This job will take jenkins backup'
+This job will take jenkins backup
++ GITDIR=/root/gitrepo
++ cd /root/gitrepo
+/tmp/jenkins258421524019288868.sh: line 7: cd: /root/gitrepo: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,7 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test1
+[test1] $ /bin/sh -xe /tmp/jenkins623591459980336595.sh
++ echo 'This is final job'
+This is final job
+Finished: SUCCESS
