@@ -1,29 +1,0 @@
-Started by user unknown or anonymous
-Running as SYSTEM
-Building in workspace /var/lib/jenkins/workspace/JenkinsRestore
-[JenkinsRestore] $ /bin/sh -xe /tmp/jenkins5313661110440094243.sh
-+ rm -rf /tmp/gitrepo
-+ mkdir /tmp/gitrepo
-+ GITDIR=/tmp/gitrepo
-+ RestoreDIR=
-+ cd /tmp/gitrepo
-+ rm -rf '*'
-+ echo 'Cloning the repository'
-Cloning the repository
-+ git clone git@github.com:yogeshbha/hello-world.git
-Cloning into 'hello-world'...
-Checking out files:  29% (1538/5301)   Checking out files:  30% (1591/5301)   Checking out files:  31% (1644/5301)   Checking out files:  32% (1697/5301)   Checking out files:  33% (1750/5301)   Checking out files:  34% (1803/5301)   Checking out files:  35% (1856/5301)   Checking out files:  35% (1882/5301)   Checking out files:  36% (1909/5301)   Checking out files:  37% (1962/5301)   Checking out files:  38% (2015/5301)   Checking out files:  39% (2068/5301)   Checking out files:  40% (2121/5301)   Checking out files:  41% (2174/5301)   Checking out files:  42% (2227/5301)   Checking out files:  43% (2280/5301)   Checking out files:  44% (2333/5301)   Checking out files:  45% (2386/5301)   Checking out files:  46% (2439/5301)   Checking out files:  47% (2492/5301)   Checking out files:  48% (2545/5301)   Checking out files:  49% (2598/5301)   Checking out files:  50% (2651/5301)   Checking out files:  51% (2704/5301)   Checking out files:  52% (2757/5301)   Checking out files:  53% (2810/5301)   Checking out files:  54% (2863/5301)   Checking out files:  54% (2905/5301)   Checking out files:  55% (2916/5301)   Checking out files:  56% (2969/5301)   Checking out files:  57% (3022/5301)   Checking out files:  58% (3075/5301)   Checking out files:  59% (3128/5301)   Checking out files:  60% (3181/5301)   Checking out files:  61% (3234/5301)   Checking out files:  62% (3287/5301)   Checking out files:  63% (3340/5301)   Checking out files:  64% (3393/5301)   Checking out files:  65% (3446/5301)   Checking out files:  65% (3462/5301)   Checking out files:  66% (3499/5301)   Checking out files:  67% (3552/5301)   Checking out files:  68% (3605/5301)   Checking out files:  69% (3658/5301)   Checking out files:  70% (3711/5301)   Checking out files:  71% (3764/5301)   Checking out files:  72% (3817/5301)   Checking out files:  73% (3870/5301)   Checking out files:  74% (3923/5301)   Checking out files:  75% (3976/5301)   Checking out files:  75% (4004/5301)   Checking out files:  76% (4029/5301)   Checking out files:  77% (4082/5301)   Checking out files:  78% (4135/5301)   Checking out files:  79% (4188/5301)   Checking out files:  80% (4241/5301)   Checking out files:  81% (4294/5301)   Checking out files:  82% (4347/5301)   Checking out files:  83% (4400/5301)   Checking out files:  84% (4453/5301)   Checking out files:  85% (4506/5301)   Checking out files:  86% (4559/5301)   Checking out files:  87% (4612/5301)   Checking out files:  88% (4665/5301)   Checking out files:  89% (4718/5301)   Checking out files:  90% (4771/5301)   Checking out files:  90% (4810/5301)   Checking out files:  91% (4824/5301)   Checking out files:  92% (4877/5301)   Checking out files:  93% (4930/5301)   Checking out files:  94% (4983/5301)   Checking out files:  95% (5036/5301)   Checking out files:  96% (5089/5301)   Checking out files:  97% (5142/5301)   Checking out files:  98% (5195/5301)   Checking out files:  99% (5248/5301)   Checking out files: 100% (5301/5301)   Checking out files: 100% (5301/5301), done.
-+ cd hello-world
-+ echo 'Stopping the Jenkins before restoring'
-Stopping the Jenkins before restoring
-+ cd /var/lib/jenkins
-++ ls -t /tmp/gitrepo/Jenkins_Backup
-++ head -1
-ls: cannot access '/tmp/gitrepo/Jenkins_Backup': No such file or directory
-+ BACKUPDIR=
-+ echo 'Restoring the backup from '
-Restoring the backup from 
-+ cd /tmp/gitrepo/Jenkins_Backup/
-/tmp/jenkins5313661110440094243.sh: line 25: cd: /tmp/gitrepo/Jenkins_Backup/: No such file or directory
-Build step 'Execute shell' marked build as failure
-Finished: FAILURE

@@ -1,7 +1,0 @@
-Started by user [8mha:////4C4cjnJaBLofCkx/QGIEC4WPIaAQu1Lq3y2Jk6gdXUHAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mprabin singh
-Running as SYSTEM
-Building in workspace /var/lib/jenkins/workspace/testjob
-[testjob] $ /bin/sh -xe /tmp/jenkins4553047567971979007.sh
-+ echo 'This is s a test job'
-This is s a test job
-Finished: SUCCESS
