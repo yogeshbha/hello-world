@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello this is gradle attempt</h2>
+<h2>Good morning Gradle</h2>
 </body>
 </html>
