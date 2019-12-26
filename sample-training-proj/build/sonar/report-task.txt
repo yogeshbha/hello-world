@@ -1,0 +1,7 @@
+organization=yogeshbha
+projectKey=yogeshbha_hello-world
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.3777
+dashboardUrl=https://sonarcloud.io/dashboard?id=yogeshbha_hello-world
+ceTaskId=AW9BG9W9lsQlqsTjLB4o
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW9BG9W9lsQlqsTjLB4o
