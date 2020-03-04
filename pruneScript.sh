@@ -3,7 +3,7 @@ echo "Please pass in the repo name as parameter"
 
 ##myrep=$1
 #git clone $myrep
-
+echo "Test"
 cd hello-world 
 git branch --remote --merged origin/master | grep -v 'master' |   grep -v 'develop' >> /tmp/mergedBranch
 
