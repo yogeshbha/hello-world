@@ -6,7 +6,7 @@ echo "Please pass in the repo name as parameter"
 
 cd hello-world 
 git branch --remote --merged origin/master | grep -v 'master' |   grep -v 'develop' >> /tmp/mergedBranch
-
+echo "Thi si smark changes"
 
 
 
