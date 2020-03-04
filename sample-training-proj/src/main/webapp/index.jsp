@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello Mani, so this is your first CD pipelin</h2>
+<h2>Hello Krishna, welcome to DevOps world!!</h2>
 </body>
 </html>
