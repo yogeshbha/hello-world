@@ -1,7 +1,7 @@
 
 echo "Please pass in the repo name as parameter"
 
-#myrep=$1
+##myrep=$1
 #git clone $myrep
 
 cd hello-world 
