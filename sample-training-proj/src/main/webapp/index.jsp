@@ -1,5 +1,9 @@
 <html>
 <body>
-<h2>New testing for the build commit pipeline</h2>
+<<<<<<< HEAD
+<h2>Hi this is p;lugin testing</h2>
+=======
+<h2>Hi RAJIV, THIS IS YOUR FIRST DEPLOYMENT ON JENKOINSi</h2>
+>>>>>>> master
 </body>
 </html>
