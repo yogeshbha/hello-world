@@ -1,7 +1,5 @@
 <html>
 <body>
-
-<h2>Hello Wiprot, Introduction to DevOps</h2>
-
+<h2>GWiproe</h2>
 </body>
 </html>
