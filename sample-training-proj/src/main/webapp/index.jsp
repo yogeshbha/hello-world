@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>This is magic of CI/CD</h2>
+<h2>Hi Divya</h2>
 </body>
 </html>
