@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>This is Deploment from sandhya pipeline<h2/>
+<h2>This is Automated Pipeline from jenkins<h2/>
 </body>
 </html>
