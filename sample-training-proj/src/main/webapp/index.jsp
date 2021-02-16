@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>This is Automated Cron  deployment from sandy pipline</h2>
+<h2>To automate from jenkins and with git push </h2>
 </body>
 </html>
