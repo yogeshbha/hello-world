@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>To automate from jenkins and with git push </h2>
+<h2>Testing automation with  jenkins and with git push </h2>
 </body>
 </html>
