@@ -1,4 +1,4 @@
 <html>
 <body>
-<h2>another one WEd - One more - Auto SCM - To tomcat - modify index file, package using mvn and deploy to tomcat web appl server </h2>
+<h2>Hello Bits Pilani, this is from auto commit </h2>
 </html>
