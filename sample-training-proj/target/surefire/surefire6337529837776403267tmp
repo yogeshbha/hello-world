@@ -1,0 +1,5 @@
+#surefire
+#Tue Jan 18 06:35:29 UTC 2022
+basedir=/root/sukesh/hello-world/sample-training-proj
+user.dir=/root/sukesh/hello-world/sample-training-proj
+localRepository=/root/.m2/repository

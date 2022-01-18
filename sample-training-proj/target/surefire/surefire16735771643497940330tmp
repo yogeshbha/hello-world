@@ -1,0 +1,23 @@
+#surefire
+#Tue Jan 18 06:35:29 UTC 2022
+testSuiteDefinitionTestSourceDirectory=/root/sukesh/hello-world/sample-training-proj/src/test/java
+includes1=**/*Test.java
+includes2=**/*TestCase.java
+runOrder=filesystem
+includes0=**/Test*.java
+reportsDirectory=/root/sukesh/hello-world/sample-training-proj/target/surefire-reports
+surefireClassPathUrl.0=/root/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+classPathUrl.0=/root/sukesh/hello-world/sample-training-proj/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+classPathUrl.1=/root/sukesh/hello-world/sample-training-proj/target/classes
+failIfNoTests=false
+classPathUrl.2=/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+testClassesDirectory=/root/sukesh/hello-world/sample-training-proj/target/test-classes
+isTrimStackTrace=true
+surefireClassPathUrl.1=/root/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+excludes0=**/*$*
+forkMode=once
+enableAssertions=true
+childDelegation=false
+useManifestOnlyJar=true
+useSystemClassLoader=true
