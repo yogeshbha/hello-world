@@ -1,4 +1,4 @@
 <html>
 <body>
-<h2>Hello Sukesh, now I am using pipelin, but in an automated way </h2>
+<h2>Hello Bits Pilani, this is the  DevOps pipeline </h2>
 </html>
